@@ -20,8 +20,6 @@ print colored('''
 print colored('''                   HackTheBox Vulnerability Scanner By R4J ''', 'red')
 print colored('''             YouTube - https://youttube.com/tutorialsforkalilinux ''', 'red')
 
-print " "
-print " "
 import urllib
 a=urllib.urlopen("http://ipecho.net/plain")
 ip=a.read()
